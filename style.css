@@ -12,7 +12,7 @@
 }
 .container{
     display:grid;
-    grid-template-rows: 1fr 1fr 5fr ;
+    grid-template-rows: 1fr 4fr 7fr ;
 }
 /* .green{
 
@@ -30,9 +30,20 @@ a {
     
 }
 .cont{
-    display: grid;
+    display:grid;
     grid-template-columns: 0.4fr 0.4fr 0.4fr 5fr; 
 
+}
+.conta{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,0.5fr));
+    gap: 30px;
+}
+img{
+    border:solid black;
+    border-width: 100px;
+   
+   
 }
 .contact{
     justify-self:end;
