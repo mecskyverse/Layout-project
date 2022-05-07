@@ -36,12 +36,23 @@ a {
 }
 .conta{
     display:grid;
-    grid-template-columns: repeat(auto-fill,minmax(300px,0.5fr));
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     gap: 30px;
+    height: 100%;
+    width: 100%;
+}
+.box
+{
+    background-color: #444;
+    padding: 100px;
+    margin: 20px;
+    
 }
 img{
-    border:solid black;
-    border-width: 100px;
+    
+    /* margin-inline-start: 30px; */
+    
+    width: 100%;
    
    
 }
