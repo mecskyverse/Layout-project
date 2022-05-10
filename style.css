@@ -1,4 +1,12 @@
+*{
 
+    Margin:0;
+    
+    Padding:0;
+    
+    Border:0;
+    
+    }
 .zone {
     padding:30px 50px;
     padding-left: 1px;
@@ -32,7 +40,7 @@ a {
 .cont{
     display:grid;
     grid-template-columns: 0.4fr 0.4fr 0.4fr 5fr; 
-
+  
 }
 .conta{
     display:grid;
