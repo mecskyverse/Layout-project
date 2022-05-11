@@ -10,6 +10,16 @@
     transition: all 0.3s linear;
 }
 
+.green {
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .flexi {
     display: flex;
     justify-content: center;
@@ -17,6 +27,8 @@
 }
 
 .flexi img {
+    border: #FFF 100px solid;
+    margin-bottom: 20px;
     width: 544px;
 }
 
